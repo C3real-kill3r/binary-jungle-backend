@@ -27,7 +27,7 @@ class TestEmailVerification(AuthenticationTestCase):
 
     def test_sends_email(self):
         self.assertEqual(len(mail.outbox), 1)
-        self.assertEqual(mail.outbox[0].subject, 'Activate your Binary Jungle account.')
+        self.assertEqual(mail.outbox[0].subject, "Activate your Binary Jungle account.")
 
     def test_account_verified(self):
         """
