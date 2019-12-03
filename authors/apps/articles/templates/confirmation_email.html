@@ -1,0 +1,15 @@
+{% extends 'email_template.html' %}
+{% block content %}
+
+    <div>
+        <p>
+            Dear <b>{{ username }}</b>,
+            It has come to our attention that one your articles, <b>{{ article }}</b>, has breached our
+            terms of agreement. The article has since been removed from Authors Haven. Such content will not
+            be allowed on the platform.
+        </p>
+        <br/>
+        <p>Happy Writing!</p>
+    </div>
+
+{% endblock %}

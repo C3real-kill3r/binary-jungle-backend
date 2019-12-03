@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin-ext');
+
+* {
+    font-weight: 100;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica, helvetica neue, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+b{
+    font-weight: bold !important;
+}
+
+body, html, h2, h3 {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3em;
+    color: #ffffff;
+    font-family: 'Great Vibes', cursive;
+}
+
+header {
+    text-align: center;
+    z-index: 1;
+    padding: 2em;
+    background: #475ab8;
+}
+
+.card {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    z-index: 100;
+    background: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    margin: auto;
+    border-radius: 0.3em;
+    transition: box-shadow 0.1s ease, transform 0.1s ease;
+    box-shadow: 0 2px 2px 0 #D4D4D5, 0 0 0 1px #D4D4D5;
+}
+
+.card > .content {
+    padding: 1em;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.card > .content > .title {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+#content {
+    display: flex;
+    margin-top: -10px;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    background: #f06292 none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0.8em 1.5em 0.8em;
+    font-weight: normal;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 0.3em;
+    transition: background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+}

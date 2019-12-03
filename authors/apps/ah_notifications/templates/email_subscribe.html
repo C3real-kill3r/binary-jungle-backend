@@ -1,0 +1,23 @@
+<!--
+This template creates a UI for acknowledgement reporting articles .
+REQUIRED PARAMETERS:
+    username - the username of the user
+    article-slug -
+    author
+    report-category
+    user-message
+!-->
+{% extends 'email_template.html' %}
+{% block content %}
+
+    <div>
+        <p>
+            Dear <b>{{ username }}</b>,
+            You have subscribed to Authors' Haven's notifications. 
+            You will be able to receive notifications on articles you create and activities on people you follow.
+        </p>
+        <br/>
+        <p>Happy Writing!</p>
+    </div>
+
+{% endblock %}

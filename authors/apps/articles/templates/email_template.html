@@ -1,0 +1,27 @@
+<!--
+This HTML Templates is to be used in sending emails to users.
+Extend this template in order to complete the content part with the information to pass to the user
+
+
+REQUIRED PARAMETERS : title - the subject of the email
+!-->
+{% load inlinecss %}
+{% inlinecss 'css/emails.css' %}
+    <html lang="en">
+    <body>
+    <header>
+        <h2>Author's Haven</h2>
+    </header>
+    <div id="content">
+        <div class="card">
+            <div class="content">
+                <h3 class="title center">{{ title }}</h3>
+                <br/>
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>
+{% endinlinecss %}

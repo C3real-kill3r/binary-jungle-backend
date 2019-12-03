@@ -1,0 +1,4 @@
+[flake8]
+exclude = .venv,migrations, venv, .env, env
+max-complexity = 5
+max-line-length = 120
