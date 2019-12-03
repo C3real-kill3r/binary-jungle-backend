@@ -80,7 +80,7 @@ class RegistrationAPIView(CreateAPIView):
             username = user.username
             from_email = os.getenv("EMAIL_HOST_SENDER")
 
-            email_subject = 'Activate your Author\'s Haven account.'
+            email_subject = 'Activate your Binary Jungle account.'
             email_message = render_to_string('email_verification.html', {
                 'activation_link': client.get_activate_account_link(token, uid),
                 'title': email_subject,
