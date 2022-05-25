@@ -8,7 +8,7 @@ djangorestframework-jwt==1.11.0
 psycopg2-binary==2.7.5
 gunicorn==19.9.0
 psycopg2==2.7.5
-PyJWT==1.6.4
+PyJWT==2.4.0
 pytz==2018.5
 six==1.11.0
 whitenoise==4.1
